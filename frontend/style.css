@@ -1,0 +1,64 @@
+/* 스타일 추가 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#chat-container {
+    max-width: 800px; /* 대화창 컨테이너 최대 폭을 늘려 가독성을 향상시킵니다. */
+    margin: 20px auto;
+    padding: 20px; /* 간격을 조정하기 위해 패딩을 늘렸습니다. */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#chat-title {
+    color: #333; /* 제목에 더 어두운 색상을 적용합니다. */
+    font-size: 20px; /* 제목의 글꼴 크기를 키웁니다. */
+    margin-bottom: 15px; /* 간격을 늘리기 위해 아래 여백을 추가했습니다. */
+    background-color: #f0f0f0; /* 제목 배경색 추가 */
+    padding: 10px; /* 패딩을 더 추가하여 제목을 강조합니다. */
+    border-radius: 8px; /* 모서리를 둥글게 만듭니다. */
+}
+
+#chat-messages {
+    height: 300px; /* 더 긴 문장을 편안히 표시하기 위해 높이를 늘렸습니다. */
+    overflow-y: auto;
+    background-color: #e6e6e6; /* 메시지 창 배경색 추가 */
+    padding: 10px; /* 패딩을 더 추가하여 메시지를 강조합니다. */
+    margin-bottom: 8px;
+}
+.user-message {
+    background-color: #dbf7ff; /* 사용자 메시지 배경색 추가 */
+}
+
+.response-message {
+    background-color: #eafbea; /* 응답 메시지 배경색 추가 */
+}
+
+#message-input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#send-button {
+    width: 25%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
