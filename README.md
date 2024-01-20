@@ -7,3 +7,6 @@ OpenAI API (https://www.npmjs.com/package/openai)
 챗GPT 문서 (https://platform.openai.com/docs/api-reference/chat/create)  
 Express (https://www.npmjs.com/package/express)
 
+-개발 중 이슈(생길 때 마다 추가)-
+1. openai의 api keys는 깃 허브에 올라갈 시 자동으로 키가 삭제된다.(재발급 받고 깃허브에 푸쉬 막음)
+
