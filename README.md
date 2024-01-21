@@ -9,4 +9,4 @@ Express (https://www.npmjs.com/package/express)
 
 -개발 중 이슈(생길 때 마다 추가)-
 1. openai의 api keys는 깃 허브에 올라갈 시 자동으로 키가 삭제된다.(재발급 받고 깃허브에 푸쉬 막음)
-
+2. 이미지는 엣지 브라우저에서 image Creator from Designer 을 이용하여 생성
