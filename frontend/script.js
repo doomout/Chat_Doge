@@ -16,6 +16,9 @@ function start() {
 }
 
 async function sendMessage() {
+    //로딩 아이콘  보여주기
+    document.getElementById('loader').style.display = "block";
+
     //사용자의 메시지 가져옴
     const messageInput = document.getElementById('messageInput');
     const message = messageInput.value;
@@ -52,6 +55,9 @@ async function sendMessage() {
         }
 
         const data = await response.json();
+
+        //로딩 아이콘  숨기기
+        document.getElementById('loader').style.display = "none";
       
         //assistantMessage 메세지 추가
         assistantMessages.push(data.assistant);
@@ -63,7 +69,7 @@ async function sendMessage() {
         botBubble.textContent = data.assistant;
         document.getElementById('fortuneResponse').appendChild(botBubble);
 
-        
+
     } catch (error) {
         console.error('에러:', error.message);
     }
