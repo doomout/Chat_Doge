@@ -67,6 +67,16 @@ async function sendMessage() {
         const botBubble = document.createElement('div');
         botBubble.className = 'chat-bubble bot-bubble';
         botBubble.textContent = data.assistant;
+
+        //후원 링크 삽입(토스)
+        const  p = document.createElement('p');
+        p.innerHTML = '만족하셨으면 후원 좀.....( --) => ';
+        const link = document.createElement('a');
+        link.href = 'https://toss.me/토스아이디';//테스트 버전이라 이렇게 표시
+        link.innerHTML = '복채 보내기';
+        p.appendChild(link);
+        botBubble.appendChild(p);
+
         document.getElementById('fortuneResponse').appendChild(botBubble);
 
 
