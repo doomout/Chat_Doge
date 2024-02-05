@@ -6,7 +6,7 @@ Node.js 20.11.0(https://nodejs.org/en)
 OpenAI API (https://www.npmjs.com/package/openai)  
 챗GPT 문서 (https://platform.openai.com/docs/api-reference/chat/create)  
 Express (https://www.npmjs.com/package/express)  
-무료 아이콘 (https://fontawesome.com/search?q=loding&o=r&m=free)
+무료 아이콘 (https://fontawesome.com/search?q=loding&o=r&m=free)  
 카카오 애드핏(https://adfit.kakao.com/info)
 
 -개발 중 이슈(생길 때 마다 추가)-
